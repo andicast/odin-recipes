@@ -1,4 +1,4 @@
-div {
+/* div {
     background-color: red;
     color: white;
     font-size: 32px;
@@ -6,4 +6,27 @@ div {
     font-weight: bold;
 }
 
+Only removed for Class and ID Selector exercise
+*/
+
+
+.odd {
+    background-color: #fc035a;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.odd-cool {
+    font-size: 24px;
+}
+
+#two {
+    color: rgb(36, 36, 227);
+    font-size: 36px;
+}
+
+#four {
+    background-color: rgb(130, 206, 15);
+    font-size: 24px;
+    font-weight: bold;
+}
 
