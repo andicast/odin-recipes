@@ -9,7 +9,7 @@
 Only removed for Class and ID Selector exercise
 */
 
-
+/*
 .odd {
     background-color: #fc035a;
     font-family: Verdana, "DejaVu Sans", sans-serif;
@@ -30,3 +30,15 @@ Only removed for Class and ID Selector exercise
     font-weight: bold;
 }
 
+edited to do chain selector lesson
+*/
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
