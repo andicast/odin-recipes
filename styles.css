@@ -45,7 +45,7 @@ edited to do chain selector lesson
 }
 */
 
-/* descendent combinator code below */
+/* descendent combinator code below 
 
 div p {
     background-color: yellow;
@@ -53,3 +53,44 @@ div p {
     font-size: 20px;
     text-align: center;
 }
+*/
+
+/*cascade fix code below*/
+.para,
+.small-para {
+  color: hsl(0, 100%, 50%);
+}
+
+.para {
+    font-size: 22px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+div.text {
+    color: green;
+    font-size: 22px;
+}
+
+.small-para {
+  font-size: 14px;
+}
+
+
+
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+
+div .child {
+  color: red;
+  font-size: 14px;
+}
+
