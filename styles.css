@@ -33,6 +33,7 @@ Only removed for Class and ID Selector exercise
 edited to do chain selector lesson
 */
 
+/*
 .avatar.proportioned {
     width: 300px;
     height: auto;
@@ -41,4 +42,14 @@ edited to do chain selector lesson
 .avatar.distorted {
     height: 400px;
     width: 200px;
+}
+*/
+
+/* descendent combinator code below */
+
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
 }
