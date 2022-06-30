@@ -1,96 +1,28 @@
-/* div {
-    background-color: red;
-    color: white;
-    font-size: 32px;
-    text-align: center;
-    font-weight: bold;
-}
-
-Only removed for Class and ID Selector exercise
-*/
-
-/*
-.odd {
-    background-color: #fc035a;
-    font-family: Verdana, "DejaVu Sans", sans-serif;
-}
-
-.odd-cool {
-    font-size: 24px;
-}
-
-#two {
-    color: rgb(36, 36, 227);
-    font-size: 36px;
-}
-
-#four {
-    background-color: rgb(130, 206, 15);
-    font-size: 24px;
-    font-weight: bold;
-}
-
-edited to do chain selector lesson
-*/
-
-/*
-.avatar.proportioned {
-    width: 300px;
-    height: auto;
-}
-
-.avatar.distorted {
-    height: 400px;
-    width: 200px;
-}
-*/
-
-/* descendent combinator code below 
-
-div p {
-    background-color: yellow;
-    color: red;
+a {
+    color: blue;
+    text-decoration: underline;
     font-size: 20px;
-    text-align: center;
-}
-*/
-
-/*cascade fix code below*/
-.para,
-.small-para {
-  color: hsl(0, 100%, 50%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.para {
-    font-size: 22px;
+h1,
+h2 {
+    color: black;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    font-size: 20px;
+p,
+ol,
+ul,
+li {
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-div.text {
-    color: green;
-    font-size: 22px;
+strong {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.small-para {
-  font-size: 14px;
-}
-
-
-
-#confirm-button {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-
-
-div .child {
-  color: red;
-  font-size: 14px;
-}
 
